@@ -11,8 +11,9 @@ array.collect { |element| element.capitalize + "!"}
 end
 
 
-def long_planeteer_calls# code an argument here
-  # Your code here
+def long_planeteer_calls(array)
+array.any? do |call|
+  call.size > 4
 end
 
 def find_the_cheese# code an argument here
