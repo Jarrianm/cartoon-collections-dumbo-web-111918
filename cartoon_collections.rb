@@ -7,7 +7,8 @@ def roll_call_dwarves(array)
  end
 
 def summon_captain_planet(array)
-array.collect {|element| element.upcase + "!"}
+array.collect do {|element| element.upcase + "!"}
+end
 end
 
 
