@@ -8,7 +8,7 @@ def roll_call_dwarves(array)
 
 def summon_captain_planet(array)
 planeteer_calls = []
-  array.collect do |element|
+  array.each do |element|
      planeteer_calls << "#{element.upcase}!"
 end
 planeteer_calls
