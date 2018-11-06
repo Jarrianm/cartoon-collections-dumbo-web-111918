@@ -11,6 +11,7 @@ planeteer_calls = []
   array.collect do |element|
      planeteer_calls << "#{element.upcase}!"
 end
+planeteer_calls
 end
 
 def long_planeteer_calls# code an argument here
